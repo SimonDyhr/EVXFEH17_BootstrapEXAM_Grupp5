@@ -1,0 +1,29 @@
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-brand span{
+margin-right: 10px;
+}
+
+.breadcrumb{
+    background: none;
+}
+
+.breadcrumb a{
+    color: gray;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .navbar{
+    padding: 0;
+    margin: 0;
+}
