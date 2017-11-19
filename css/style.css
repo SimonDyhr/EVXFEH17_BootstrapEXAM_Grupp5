@@ -1,3 +1,19 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
 .navbar{
     border-radius: 0;
 }
@@ -15,7 +31,7 @@ margin-right: 10px;
 }
 
 .footer{
-    position: absolute;
+    height: 60px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -26,4 +42,26 @@ margin-right: 10px;
 .footer .navbar{
     padding: 0;
     margin: 0;
+}
+
+
+.my_panel > .panel-body {
+    padding: 0px;
+    max-height: 280px;
+    overflow: hidden;
+}
+.my_panel > .panel-body > img {
+    width: 100%;
+    height: auto;
+}
+.my_panel > .panel-footer {
+    text-align: center; 
+}
+
+
+.post-preview{
+    background-color: #fefff9;
+    border-bottom: 3px solid gray;
+    padding: 1px 10px 1px 10px;
+    margin-bottom: 60px;
 }
