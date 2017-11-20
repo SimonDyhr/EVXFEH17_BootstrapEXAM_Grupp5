@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tenta</title>
+
+    <script src="https://use.fontawesome.com/2e22900e44.js"></script>         
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- Menu START -->
+    <div class="Menu">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <span>
+                                <img src="images/man-with-beard.png">
+                            </span> Beard </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">All Services
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="treatments.html">All services</a>
+                                    </li>
+                                    <li>
+                                        <a href="trimming.html">Beard trimming</a>
+                                    </li>
+                                    <li>
+                                        <a href="styling.html">Beard styling</a>
+                                    </li>
+                                    <li>
+                                        <a href="braiding.html">Beard braiding</a>
+                                    </li>
+                                    <li>
+                                        <a href="color.html">Coloring</a>
+                                    </li>
+                                    <li>
+                                        <a href="waxing.html">Mustache waxing</a>
+                                    </li>
+                                    <li>
+                                        <a href="products.html">Beard products</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="gallery.html">Photo gallery</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Menu END -->
+
+
+
+    <!-- Breadcrumb START -->
+    <div class="container">
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">Photo gallery</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Breadcrumb END  -->
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <h2>Gallery</h2>
+        <p class="j-gallery-p">Happy customers:</p>
+
+            <!-- MODAL INFO:    Modals with less width has the offset class in order to be more centered on page.
+                                Since the images are at full size in sm the image in the modal is hidden and only displays the image-information    -->
+
+        <!------------------------------------------------------------------------------------------- MODAL 1 -->
+
+
+
+
+        <img data-toggle="modal" data-target="#modal1" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-1.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal1">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image ">
+                        <img class="hidden-xs col-md-6 col-sm-offset-1 col-md-offset-0 img-responsive" src="images/j-1.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 2 -->
+
+
+        <img data-toggle="modal" data-target="#modal2" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-2.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal2">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs  col-md-6 img-responsive" src="images/j-2.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 3 -->
+
+
+        <img data-toggle="modal" data-target="#modal3" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-3.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal3">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs  col-md-6 img-responsive" src="images/j-3.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 4 -->
+
+
+        <img data-toggle="modal" data-target="#modal4" class="col-sm-8 col-md-2 img-responsive jgallerymodal" src="images/j-4.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal4">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 img-responsive" src="images/j-4.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 5 -->
+
+
+        <img data-toggle="modal" data-target="#modal5" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-5.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal5">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 col-sm-offset-1 col-md-offset-0 img-responsive" src="images/j-5.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 6 -->
+
+
+        <img data-toggle="modal" data-target="#modal6" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-6.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal6">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs  col-md-6 col-sm-offset-1 col-md-offset-0 img-responsive" src="images/j-6.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 7 -->
+
+
+        <img data-toggle="modal" data-target="#modal7" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-7.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal7">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs  col-md-6 img-responsive" src="images/j-7.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 8 -->
+
+
+        <img data-toggle="modal" data-target="#modal8" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-8.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal8">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 col-sm-offset-1 col-md-offset-0 img-responsive" src="images/j-8.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 9 -->
+
+
+        <img data-toggle="modal" data-target="#modal9" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-9.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal9">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 img-responsive" src="images/j-9.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 10 -->
+
+
+        <img data-toggle="modal" data-target="#modal10" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-10.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal10">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 img-responsive" src="images/j-10.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 11 -->
+
+
+        <img data-toggle="modal" data-target="#modal11" class="col-sm-4 col-md-2 img-responsive jgallerymodal" src="images/j-11.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal11">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 col-sm-offset-1 col-md-offset-0 img-responsive" src="images/j-11.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------- MODAL 12 -->
+
+
+        <img data-toggle="modal" data-target="#modal12" class="col-sm-4 col-md-2 col-sm-offset-4 col-md-offset-0 img-responsive jgallerymodal" src="images/j-12.jpg">
+
+        <!-- Modal -->
+        <div class="modal" id="modal12">
+            <div class="modal-image">
+
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-image">
+                        <img class="hidden-xs col-md-6 col-sm-offset-1 col-md-offset-0 img-responsive" src="images/j-12.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p class="j-modalinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            <br> sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>
+                        <br><img src="images/j-share.png"><br>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer START -->
+    <div class="footer">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="container-fluid">
+                    <a class="navbar-brand visible-sm visible-md visible-lg" href="index.html"> © Beard </a>
+
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-addon">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Footer END -->
+
+
+</body>
+
+</html>
