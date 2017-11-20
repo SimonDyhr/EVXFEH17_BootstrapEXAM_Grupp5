@@ -31,11 +31,7 @@ margin-right: 10px;
 }
 
 .footer{
-<<<<<<< HEAD
-    height: 60px;
-=======
     height: 60px; 
->>>>>>> Tobias
     bottom: 0;
     left: 0;
     right: 0;
@@ -47,8 +43,6 @@ margin-right: 10px;
     padding: 0;
     margin: 0;
 }
-
-<<<<<<< HEAD
 
 .my_panel > .panel-body {
     padding: 0px;
@@ -63,49 +57,68 @@ margin-right: 10px;
     text-align: center; 
 }
 
-
 .post-preview{
     background-color: #fefff9;
     border-bottom: 3px solid gray;
     padding: 1px 10px 1px 10px;
     margin-bottom: 60px;
 }
-=======
-.j-modalinfo{
-text-align:left;
-}
-
-.jgallerymodal{
-cursor:pointer;
-margin-bottom:2em;
-}
-
-.j-gallery-p{
-margin:0 0 40px 20px;
-}
-
-.fa-facebook-square{
-color:blue;
-font-size: 40px;
-transition: transform 0.4s;
-margin-right:5px;
- cursor: pointer;
-}
-.fa-facebook-square:hover{
+.my_panel > .panel-body {
+    padding: 0px;
+    max-height: 280px;
+    overflow: hidden;
+ }
+ .my_panel > .panel-body > img {
+    width: 100%;
+    height: auto;
+ }
+ .my_panel > .panel-footer {
+    text-align: center;
+ }
+ 
+ 
+ .post-preview{
+    background-color: #fefff9
+ ;
+    border-bottom: 3px solid gray;
+    padding: 1px 10px 1px 10px;
+    margin-bottom: 60px;
+ }
+ .j-modalinfo{
+    text-align:left;
+    }
+    
+    .jgallerymodal{
+    cursor:pointer;
+    margin-bottom:2em;
+    }
+    
+    .j-gallery-p{
+    margin:0 0 40px 20px;
+    }
+    
+    .fa-facebook-square{
+    color:blue;
+    font-size: 40px;
+    transition: transform 0.4s;
+    margin-right:5px;
+    cursor: pointer;
+    }
+    .fa-facebook-square:hover{
+       transform: scale(1.5);
+    }
+    
+    .fa-twitter{
+    color:lightblue;
+    font-size: 40px;
+    transition: transform 0.4s;
+    margin-right:80px;
+    cursor: pointer;
+    }
+    .fa-twitter:hover{
     transform: scale(1.5);
-}
-
-.fa-twitter{
-color:lightblue;
-font-size: 40px;
-transition: transform 0.4s;
-margin-right:80px;
- cursor: pointer;
-}
-.fa-twitter:hover{
-transform: scale(1.5);
-}
-.j-form
-{margin-bottom:5em;
-}
->>>>>>> joakim
+    }
+    .j-form
+    {margin-bottom:5em;
+    }
+    
